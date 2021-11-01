@@ -25,4 +25,19 @@ public class CustomListTest {
 
     }
 
+//    @Test
+//    public void hasCityTest("Edmonton", "Alberta") {
+//        City city = new City("Edmonton", "Alberta");
+//        assert list.contains(city);
+//
+//    }
+
+    @Test
+    public void deleteCityTest() {
+        int listSize = list.getCount();
+        list.deleteCity(0);
+        assertEquals(listSize - 1, list.getCount());
+
+    }
+
 }
