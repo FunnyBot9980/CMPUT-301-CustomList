@@ -25,10 +25,10 @@ public class CustomListTest {
 
     }
 
-//    @Test
-//    public void hasCityTest() {
-//        assert list.hasCity(new City("Edmonton", "Alberta"));
-//    }
+    @Test
+    public void hasCityTest() {
+        assert list.hasCity(new City("Edmonton", "Alberta"));
+    }
 
     @Test
     public void deleteCityTest() {
